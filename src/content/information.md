@@ -1,6 +1,6 @@
-# Your Name
+# Carmenta Archives
 
-This is a place for your work and the things you're still working out.
+This is a place for my work and the things I am still working out.
 
 Write a few lines about yourself here. Where do you work? What do you make? What keeps you interested?
 

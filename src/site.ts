@@ -1,10 +1,10 @@
 // Start here. Keep the group IDs; change their labels to whatever suits your work.
 export const site = {
-  name: 'Your Name',
+  name: 'Carmenta Archives',
   description: 'Selected work, collected in one place.',
   email: '', // Add your public email address, or leave blank.
   groups: [
-    { id: 'left', label: 'Selected work' },
+    { id: 'left', label: 'Events' },
     { id: 'right', label: 'Studies & notes' },
   ],
 } as const;

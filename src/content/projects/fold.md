@@ -1,5 +1,5 @@
 ---
-title: Fold
+title: Test event 1
 group: left
 year: '2026'
 medium: Paper study
