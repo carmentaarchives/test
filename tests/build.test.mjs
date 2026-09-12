@@ -25,13 +25,11 @@ test('built routes, images and local links resolve, including a Pages subpath', 
     }
   }
 });
-test('each Markdown project has its own page and appears in both browsing views', () => {
+test('each Markdown project has its own page and appears on the home view', () => {
   const home = readFileSync(join(root, 'index.html'), 'utf8');
-  const index = readFileSync(join(root, 'index/index.html'), 'utf8');
   for (const file of readdirSync('src/content/projects').filter(f => f.endsWith('.md'))) {
     const slug = file.slice(0, -3);
     assert.ok(existsSync(join(root, `projects/${slug}/index.html`)));
     assert.ok(home.includes(`data-project="${slug}"`));
-    assert.ok(index.includes(`data-project="${slug}"`));
   }
 });

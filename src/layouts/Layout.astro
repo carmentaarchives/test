@@ -32,7 +32,7 @@ const imageURL = image && Astro.site ? new URL(localPath(image), Astro.site) : u
     <slot />
     <footer class="site-footer">
       <a class="site-name" href={localPath()}>{site.name}</a>
-      <a href={localPath(mode === 'projects' ? 'index/' : '')}>{mode === 'projects' ? 'Index' : 'Projects'}</a>
+      <a href={localPath()}>{mode === 'projects' ? 'Index' : 'Projects'}</a>
       <a href={localPath('information/')} aria-current={mode === 'information' ? 'page' : undefined}>Information</a>
     </footer>
   </body>
